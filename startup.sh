@@ -6,6 +6,7 @@ wget https://releases.hashicorp.com/terraform/0.12.0/terraform_0.12.0_linux_amd6
 unzip terraform_0.12.0_linux_amd64.zip 
 sudo mv terraform /usr/local/bin/ 
 terraform --version 
+gcloud init
 #git clone https://github.com/ishaqmdgcp/gce-startup.git
 #cd /gce-startup 
 #terraform init
