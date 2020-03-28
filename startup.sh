@@ -11,10 +11,7 @@ cd /gce-startup
 terraform init
 terraform plan
 terraform apply -input=false -auto-approve
-mkdir tffile
 ls
-cd tffile
-pwd
-#git add .
-#git commit -m "first commit"
-#git push origin master
+git add .
+git commit -m "first commit"
+git push origin master
