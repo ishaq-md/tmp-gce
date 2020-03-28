@@ -10,7 +10,7 @@ git clone https://github.com/ishaqmdgcp/gce-startup.git
 cd /gce-startup 
 terraform init
 terraform plan
-terraform apply -input=false -auto-approve"
+terraform apply -input=false -auto-approve
 mkdir tffile
 ls
 cd tffile
